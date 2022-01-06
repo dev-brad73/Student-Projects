@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: darkslategray;
+  margin-left: 70vh;
+  min-height: 85vh;
+  max-width: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: bolder;
+  color: #ed1c24;
+}
+
+.App-header-1 {
+  background-color: darkslategray;
+  margin-top: 1vh;
+  margin-left: 70vh;
+  min-height: 5vh;
+  max-width: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(8px + 1vmin);
+  font-weight: bolder;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-ul {
+  display: inline-block;
+  color: white;
+  padding: 0.4vw;
+}
+
+.app-li {
+  display: inline-block;
+  color: #ed1c24;
+  padding: 0.4vw;
+}
+
+.info-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: white;
+  margin-left: 2vmin;
+  margin-right: 5vmin;
+}
+
+.info-list {
+  text-align: left;
+  color: white;
+  list-style-type: disc;
+  font-size: calc(5px + 0.87vmin);
+  font-weight: bolder;
+}
+
+.info-header {
+  height: 4vmin;
+  color: white;
+}
+
+.home_header {
+  color: white;
+}
+
+.home_label {
+  color: white;
+}
+
+.home-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vmin;
+  height: 30vmin;
+}
+
+.text_input {
+  text-align: center;
+  color: #ed1c24;
+}
+
+.input-submit {
+  background-color: #ed1c24;
+  color: white;
+  width: 24vmin;
+  height: 6vmin;
+  font-size: calc(8px + 1.6vmin);
+  font-weight: bolder;
+}
+
+label {
+  text-align: center;
+  color: #ed1c24;
+}
+
+.game_points {
+  color: white;
+  text-align: center;
+}
+
+.last_card {
+  float: left;
+  color: white;
+  font-size: calc(7px + 1vmin);
+}
+
+.current_card {
+  float: right;
+  color: white;
+  font-size: calc(7px + 1vmin);
+}
+
+.bet {
+  color: white;
+}
+
+#bet {
+  color: #ed1c24;
+  text-align: center;
+}
+
+.card_pic_last {
+  width: 10vmin;
+}
+
+.card_pic_current {
+  width: 10vmin;
+}
+
+.game_ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: white;
+  margin-right: 5vmin;
+}
+
+.game_list {
+  text-align: left;
+  color: white;
+  list-style-type: none;
+  font-size: calc(6px + 1vmin);
+  font-weight: bolder;
+}
+
+.output_list {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: white;
+  margin-left: 2vmin;
+  margin-right: 5vmin;
+}

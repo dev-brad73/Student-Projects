@@ -1,0 +1,322 @@
+body {
+  background-image: url("../images/clarisse-meyer-jKU2NneZAbI-unsplash.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.about-table {
+  width: 45% !important;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  color: white;
+}
+
+.about-table1 {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  color: white;
+  text-align: left;
+}
+
+.about-table2 {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  color: white;
+  text-align: right;
+}
+
+.App-header {
+  margin-left: 70vh;
+  min-height: 85vh;
+  max-width: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-weight: bolder;
+  color: #ed1c24;
+}
+
+.App-header-1 {
+  margin-top: 1vh;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 5vh;
+  max-width: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: calc(8px + 1vmin);
+  font-weight: bolder;
+  color: white;
+}
+.App-header-2 {
+  margin-top: 8vh;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 5vh;
+  max-width: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(8px + 1vmin);
+  font-weight: bolder;
+  color: white;
+}
+
+.App-header-3 {
+  margin-top: 3vh;
+  margin-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 5vh;
+  max-width: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(3px + 0.8vmin);
+  font-weight: bolder;
+  color: white;
+}
+
+.App-header-4 {
+  /* margin-bottom: 1%; */
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 5vh;
+  max-width: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(2px + 0.8vmin);
+  font-weight: bolder;
+  color: white;
+}
+
+.App-header-5 {
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-ul {
+  width: 50vw;
+  display: inline-block;
+  align-items: center;
+  color: white;
+  padding: 0.4vw;
+}
+
+.app-li {
+  font-size: calc(5px + 2vmin);
+  display: inline-block;
+  padding: 0.4vw;
+}
+
+.app-ul-1 {
+  display: inline-block;
+  justify-items: center;
+  color: white;
+  padding: 0.4vw;
+}
+
+.app-li-1 {
+  display: inline-block;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.app-li-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: white;
+  margin-left: 2vmin;
+  margin-right: 5vmin;
+}
+
+.author-submit {
+  border: 1px solid white;
+}
+
+.info-list {
+  text-align: left;
+  color: white;
+  list-style-type: disc;
+  font-size: calc(5px + 0.87vmin);
+  font-weight: bolder;
+}
+
+.info-header {
+  height: 4vmin;
+  color: white;
+}
+
+.search-section {
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+.home_header {
+  font-size: calc(5px + 10vmin);
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  color: white;
+}
+
+.home_header-2 {
+  font-size: calc(5px + 5vmin);
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+}
+
+.home_label {
+  text-align: left;
+  width: 12rem;
+  color: white;
+  font-size: calc(4px + 2vmin);
+}
+
+.text_input {
+  font-size: calc(1px + 1.5vmin);
+  font-weight: bolder;
+  justify-items: left;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.home-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vmin;
+  height: 30vmin;
+}
+
+.home-button {
+  font-size: calc(5px + 4vmin);
+  background-color: burlywood;
+  text-align: center;
+}
+
+.about-header {
+  margin-top: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.results-table-head {
+  background: black;
+  /* fill-opacity: 0.9; */
+  font-size: calc(5px + 2vmin);
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.results-row {
+  background: rgba(209, 231, 221, 0.5);
+  font-size: calc(3px + 1vmin);
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+.update-button {
+  font-size: calc(2px + 1vmin);
+  font-weight: bold;
+}
+
+.delete-button {
+  font-size: calc(2px + 1vmin);
+  font-weight: bold;
+}
+
+.input-submit {
+  background-color: #ed1c24;
+  color: white;
+  width: 24vmin;
+  height: 6vmin;
+  font-size: calc(8px + 1.6vmin);
+  font-weight: bolder;
+}
+
+label {
+  text-align: center;
+  color: #ed1c24;
+}
+
+.game_ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: white;
+  margin-right: 5vmin;
+}
+
+.game_list {
+  text-align: left;
+  color: white;
+  list-style-type: none;
+  font-size: calc(6px + 1vmin);
+  font-weight: bolder;
+}
+
+.output_list {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: white;
+  margin-left: 2vmin;
+  margin-right: 5vmin;
+}
+
+.activeNav {
+  background-color: #0275d8;
+}
