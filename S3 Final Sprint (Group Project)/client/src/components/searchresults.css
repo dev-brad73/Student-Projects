@@ -1,0 +1,15 @@
+.search-box {
+  text-align: center;
+}
+.search-data {
+  background-color: white;
+  opacity: 90%;
+}
+
+.searchDataCustomerName {
+  font-size: 20px;
+  padding: 5px;
+}
+.searchDataCustomerDataItem {
+  font-size: 16px;
+}

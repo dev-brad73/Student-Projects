@@ -1,0 +1,15 @@
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.title:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+}
